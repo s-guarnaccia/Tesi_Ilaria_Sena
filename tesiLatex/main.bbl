@@ -1,0 +1,121 @@
+\begin{thebibliography}{10}
+
+\bibitem{rischiodigitale}
+E.~Agresti, L.~Antonelli, D.~Ariu, S.~Barboni, G.~Belluzzo, A.~Bosis, Y.~Perseu, L.~Querzoni, S.~Scozzari, A.~Manzoni, Bucciarelli F., Butti G., Caccia A., Carnelli D., Castello A., Ceccon M., Ciclosi F., Colombo L., Corona I., Cresci R., Crociani M., Cusello G., Diomede N., Dursi E., Ferretti A., Ferretti E., Fumagalli G., Gaia C., Gatti C., Guastone C., Locatelli M., Magri M., Manco L., Manconi D., Mariotti A., Mauceli C., Mauro L., Menna S., Meroni P., Modena R., Mudu E., Panza P., Parrinello I., Pastore M., Perugini M., Ranza R., Ravizza A., Rui A., Sambucci L., Saulli F., Sferlazza P., Sotira N., Spreafico G., Tordi R., Troiano G., Vaciago E., and Zammarchi L.
+\newblock Rapporto clusit, rischio digitale innovazione e resilienza.
+\newblock 2022.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{attaccoZeroDay}
+AVG.
+\newblock Attacchi zero-day.
+\newblock \url{https://www.avg.com/it/signal/zero-day-attack}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{DevSecOps}
+AWS.
+\newblock Cos'è devsecops?
+\newblock \url{https://aws.amazon.com/it/what-is/devsecops/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{art1}
+G.~Butti, A.~Di~Mattia, I.~Gabrielli, P.~Giudice, F.~Livelli, C.~Mauceli, Y.~Perseu, L.~Querzoni, S.~Scozzari, and A.~Manzoni.
+\newblock Rapporto clusit sulla sicurezza informatica.
+\newblock 2022.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{attaccoDDOS}
+cloudflare.
+\newblock Definire un attacco ddos.
+\newblock \url{https://www.cloudflare.com/it-it/learning/ddos/what-is-a-ddos-attack/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{attaccoZeroDayRecente}
+cybersecurity360.
+\newblock Allerta per una zero-day su cisco ios xe.
+\newblock https://www.cybersecurity360.it/nuove-minacce/allerta-per-una-zero-day-su-cisco-ios-xe-oltre-1-600-i-dispositivi-di-rete-esposti-in-italia/.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{Autenticazione2fattori}
+cybersecurity360.
+\newblock Autenticazione a due fattori.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{NIST}
+cybersecurity360.
+\newblock Nist cybersecurity framework.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{MITRE&CVE}
+cynet.
+\newblock Mitre.
+\newblock \url{https://www.cynet.com/it/mitre-cose-a-cosa-serve-facciamo-chiarezza/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{gdpr}
+garanteprivacy.
+\newblock garante per la protezione dei dati personali.
+\newblock \url{https://www.garanteprivacy.it/home/principi-fondamentali-del-trattamento}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{Jenkins}
+geekandjob.
+\newblock Jenkins.
+\newblock \url{https://www.geekandjob.com/wiki/jenkins}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{Malware}
+malwarebytes.
+\newblock Malware.
+\newblock https://it.malwarebytes.com/malware/.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{Dependency-Check}
+OWASP.
+\newblock Controllo delle dipendenze owasp.
+\newblock \url{https://owasp.org/www-project-dependency-check/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{Top10}
+OWASP.
+\newblock Owasp top 10.
+\newblock \url{https://owasp.org/Top10/it/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{OWASP_ZAP}
+OWASP Zed~Attack Proxy.
+\newblock Owasp zed attack proxy.
+\newblock \url{https://oscat.regione.toscana.it/catalogo-prodotti-open-source/vulnerability-assessment-web-app/owasp-zed-attack-proxy}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{servizi_cloud}
+redhat.
+\newblock Categorie di servizi del cloud computing.
+\newblock \url{https://www.redhat.com/it/topics/cloud-computing/public-cloud-vs-private-cloud-and-hybrid-cloud#:~:text=Esistono%20quattro%20tipi%20principali%20di,a%2DService%20(SaaS).}
+\newblock Accessed: 2023-11-10.
+
+\bibitem{Snyk}
+trend.
+\newblock Snyk.
+\newblock \url{https://www.trendmicro.com/it_it/snyk.html}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{DevSecOps2}
+UniverseIT.
+\newblock Devsecops?
+\newblock \url{https://universeit.blog/devsecops-development-security-operations/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{CVE}
+wikipedia.
+\newblock Cve.
+\newblock \url{https://it.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{gdpr2}
+wikipedia.
+\newblock Regolamento generale sulla protezione dei dati.
+\newblock \url{https://it.wikipedia.org/wiki/Regolamento_generale_sulla_protezione_dei_dati}.
+\newblock Accessed: 2023-11-10.
+
+\end{thebibliography}

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: contents/TitlePage.aux
+A level-1 auxiliary file: contents/CoolQuote.aux
+A level-1 auxiliary file: contents/Abstract.aux
+A level-1 auxiliary file: contents/ResponsabilityDeclaration.aux
+A level-1 auxiliary file: contents/intro.aux
+The style file: plain.bst
+A level-1 auxiliary file: contents/Thanks.aux
+Database file #1: Bibliography.bib
+Warning--empty journal in rischiodigitale
+Warning--empty journal in art1
+Warning--empty journal in Autenticazione2fattori
+Warning--empty year in Autenticazione2fattori
+Warning--empty journal in NIST
+Warning--empty year in NIST
+You've used 20 entries,
+            2118 wiz_defined-function locations,
+            589 strings with 7576 characters,
+and the built_in function-call counts, 6295 in all, are:
+= -- 548
+> -- 467
+< -- 0
++ -- 190
+- -- 170
+* -- 382
+:= -- 1133
+add.period$ -- 78
+call.type$ -- 20
+change.case$ -- 145
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 152
+empty$ -- 421
+format.name$ -- 170
+if$ -- 1246
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 4
+newline$ -- 121
+num.names$ -- 40
+pop$ -- 249
+preamble$ -- 1
+purify$ -- 125
+quote$ -- 0
+skip$ -- 105
+stack$ -- 0
+substring$ -- 100
+swap$ -- 16
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 80
+warning$ -- 6
+while$ -- 40
+width$ -- 22
+write$ -- 218
+(There were 6 warnings)

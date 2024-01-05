@@ -1,0 +1,75 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduzione e motivazioni}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Il processo di innovazione digitale}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Lo sviluppo del rischio}{7}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Situazioni di rischio attuali}{8}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Analisi cyber attacchi a livello globale}{8}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Minacce note e classificazioni}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Il concetto di malware}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Come proteggersi dai malware}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Attacchi Malware recenti}{13}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Attacchi DDoS}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Attacchi DDoS recenti}{13}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Attacchi zero-day}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Attacchi zero-day recenti}{14}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Vulnerabilità web e come classificarle}{14}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Ultimi cambiamenti top10}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Broken Access Control}{15}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Come prevenire Broken Access Control}{15}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Cryptographic Failures}{16}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Come prevenire Cryptographic Failures}{16}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Injection}{17}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Come prevenire Injection}{17}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Insecure Design}{17}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Come prevenire Insecure Design}{18}{subsection.2.4.9}%
+\contentsline {subsection}{\numberline {2.4.10}Security Misconfiguration}{18}{subsection.2.4.10}%
+\contentsline {subsection}{\numberline {2.4.11}Come prevenire Security Misconfiguration}{18}{subsection.2.4.11}%
+\contentsline {subsection}{\numberline {2.4.12}Vulnerable and Outdated Components}{19}{subsection.2.4.12}%
+\contentsline {subsection}{\numberline {2.4.13}Come prevenire Vulnerable and Outdated Components}{19}{subsection.2.4.13}%
+\contentsline {subsection}{\numberline {2.4.14}Identification and Authentication Failures}{19}{subsection.2.4.14}%
+\contentsline {subsection}{\numberline {2.4.15}Come prevenire Identification and Authentication Failures}{20}{subsection.2.4.15}%
+\contentsline {subsubsection}{Autenticazione a due fattori}{20}{section*.6}%
+\contentsline {subsection}{\numberline {2.4.16}Software and Data Integrity Failures}{21}{subsection.2.4.16}%
+\contentsline {subsection}{\numberline {2.4.17}Come prevenire Software and Data Integrity Failures}{21}{subsection.2.4.17}%
+\contentsline {subsection}{\numberline {2.4.18}Security Logging and Monitoring Failures}{22}{subsection.2.4.18}%
+\contentsline {subsection}{\numberline {2.4.19}Come prevenire Security Logging and Monitoring Failure}{22}{subsection.2.4.19}%
+\contentsline {subsection}{\numberline {2.4.20}Server-Side Request Forgery}{22}{subsection.2.4.20}%
+\contentsline {subsection}{\numberline {2.4.21}Come prevenire Server-Side Request Forgery}{23}{subsection.2.4.21}%
+\contentsline {subsubsection}{Dal layer di rete:}{23}{section*.7}%
+\contentsline {subsubsection}{Dal layer applicativo:}{23}{section*.8}%
+\contentsline {subsubsection}{Praticità}{23}{section*.9}%
+\contentsline {section}{\numberline {2.5}Standard , best practice e leggi }{23}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Il GDPR}{23}{subsection.2.5.1}%
+\contentsline {subsubsection}{Terminologia utile}{23}{section*.10}%
+\contentsline {subsubsection}{Introduzione}{24}{section*.11}%
+\contentsline {subsubsection}{La rilevanza giuridica dell’analisi del rischio}{24}{section*.12}%
+\contentsline {subsubsection}{Adempimenti per l’analisi del rischio}{24}{section*.13}%
+\contentsline {subsection}{\numberline {2.5.2}Il NIST}{25}{subsection.2.5.2}%
+\contentsline {subsubsection}{Ambito di applicazione del NIST}{25}{section*.14}%
+\contentsline {subsubsection}{Architettura del framework}{25}{section*.15}%
+\contentsline {chapter}{\numberline {3}La valutazione del rischio digitale}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Risk assessment e risk management }{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Integrazione continua DevSecOps}{29}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Vantaggi DevSecOps}{29}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Pipeline DevSecOps}{29}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Analisi dei report}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tecnologie DevSecOps}{30}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Jenkins}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Snyk}{32}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}OWASP Dependency-Check}{33}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Owasp ZAP}{33}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Esempi pratici}{34}{subsection.3.4.5}%
+\contentsline {subsubsection}{Esempio di test di applicazioni java: Notsecurebank}{34}{section*.24}%
+\contentsline {subsubsection}{Esempio di test in angular}{37}{section*.29}%
+\contentsline {section}{\numberline {3.5}Cloud Computing}{41}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Cos’è il Cloud Computing}{41}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Evoluzione del Cloud Computing}{41}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Modelli di distribuzione del Cloud Computing}{42}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Categorie di servizi del Cloud Computing}{42}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Vantaggi del Cloud Computing}{43}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Gestione delle vulnerabilità in applicazioni Cloud}{44}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Vulnerabilità comuni in applicazioni Cloud}{44}{subsection.3.5.7}%
+\contentsline {subsection}{\numberline {3.5.8}Funzionalità che rendono importante la gestione delle vulnerabilità del Cloud}{45}{subsection.3.5.8}%
+\contentsline {subsection}{\numberline {3.5.9}Pratiche di gestione delle vulnerabilità del Cloud}{45}{subsection.3.5.9}%
