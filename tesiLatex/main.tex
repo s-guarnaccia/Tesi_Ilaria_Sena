@@ -35,13 +35,13 @@
 % diversi tipi di sottolineature
 \usepackage[normalem]{ulem}
 % package e comando per creare pagine vuote
-\usepackage{afterpage}
-\newcommand\blankpage{%
-    \null
-    \thispagestyle{empty}%
-    \addtocounter{page}{-1}%
-    \newpage
-}
+%\usepackage{afterpage}
+%\newcommand\blankpage{%
+ %   \null
+  %  \thispagestyle{empty}%
+   % \addtocounter{page}{-1}%
+    %\newpage
+%}
     
 % package per creare comandi personalizzati
 \usepackage{xpatch}
@@ -106,11 +106,11 @@
 \begin{document}
 
 \include{contents/TitlePage}
-\afterpage{\blankpage}
+%\afterpage{\blankpage}
 \include{contents/CoolQuote}
-\afterpage{\blankpage}
+%\afterpage{\blankpage}
 \include{contents/Abstract}
-\afterpage{\blankpage}
+%\afterpage{\blankpage}
 \include{contents/ResponsabilityDeclaration}
 
 \tableofcontents
@@ -119,7 +119,7 @@
 
 \bibliographystyle{plain}
 \bibliography{Bibliography}
-\afterpage{\blankpage}
+%\afterpage{\blankpage}
 \include{contents/Thanks}
 
 \end{document}

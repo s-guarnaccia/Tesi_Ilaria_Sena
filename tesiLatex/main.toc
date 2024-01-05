@@ -1,6 +1,9 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
 \babel@toc {english}{}\relax 
+\babel@toc {italian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {italian}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduzione e motivazioni}{7}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Il processo di innovazione digitale}{7}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Lo sviluppo del rischio}{7}{section.1.2}%

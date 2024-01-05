@@ -1,8 +1,8 @@
-PWD c:/Users/i.sena/Documents/tesiLatex
+PWD c:/Users/i.sena/Documents/tesi/Tesi_Ilaria_Sena/tesiLatex
 INPUT c:/texlive/2023/texmf.cnf
 INPUT c:/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/i.sena/Documents/tesiLatex/main.tex
+INPUT c:/Users/i.sena/Documents/tesi/Tesi_Ilaria_Sena/tesiLatex/main.tex
 OUTPUT main.log
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2023/texmf-dist/tex/latex/base/report.cls
@@ -175,8 +175,6 @@ INPUT c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT c:/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
-INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/afterpage.sty
-INPUT c:/texlive/2023/texmf-dist/tex/latex/tools/afterpage.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/xpatch/xpatch.sty
 INPUT c:/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
