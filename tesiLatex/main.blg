@@ -15,45 +15,46 @@ Warning--empty journal in Autenticazione2fattori
 Warning--empty year in Autenticazione2fattori
 Warning--empty journal in NIST
 Warning--empty year in NIST
-You've used 20 entries,
+Warning--empty journal in gestione_vulnerabiltà
+You've used 23 entries,
             2118 wiz_defined-function locations,
-            589 strings with 7576 characters,
-and the built_in function-call counts, 6295 in all, are:
-= -- 548
-> -- 467
+            600 strings with 7856 characters,
+and the built_in function-call counts, 6933 in all, are:
+= -- 611
+> -- 488
 < -- 0
-+ -- 190
-- -- 170
-* -- 382
-:= -- 1133
-add.period$ -- 78
-call.type$ -- 20
-change.case$ -- 145
++ -- 199
+- -- 176
+* -- 400
+:= -- 1245
+add.period$ -- 90
+call.type$ -- 23
+change.case$ -- 157
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 152
-empty$ -- 421
-format.name$ -- 170
-if$ -- 1246
+cite$ -- 30
+duplicate$ -- 176
+empty$ -- 482
+format.name$ -- 176
+if$ -- 1382
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 4
-newline$ -- 121
-num.names$ -- 40
-pop$ -- 249
+int.to.str$ -- 23
+missing$ -- 5
+newline$ -- 139
+num.names$ -- 46
+pop$ -- 274
 preamble$ -- 1
-purify$ -- 125
+purify$ -- 134
 quote$ -- 0
-skip$ -- 105
+skip$ -- 122
 stack$ -- 0
-substring$ -- 100
-swap$ -- 16
+substring$ -- 115
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 80
-warning$ -- 6
-while$ -- 40
-width$ -- 22
-write$ -- 218
-(There were 6 warnings)
+type$ -- 92
+warning$ -- 7
+while$ -- 46
+width$ -- 25
+write$ -- 251
+(There were 7 warnings)

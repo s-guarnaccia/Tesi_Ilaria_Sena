@@ -6,6 +6,12 @@ E.~Agresti, L.~Antonelli, D.~Ariu, S.~Barboni, G.~Belluzzo, A.~Bosis, Y.~Perseu,
 \newblock 2022.
 \newblock Accessed: 2023-11-10.
 
+\bibitem{vantaggi_cloud}
+alet.
+\newblock Vantaggi del cloud.
+\newblock \url{https://www.alet.com/cloud-aziende-quali-sono-i-vantaggi/}.
+\newblock Accessed: 2023-11-10.
+
 \bibitem{attaccoZeroDay}
 AVG.
 \newblock Attacchi zero-day.
@@ -62,6 +68,18 @@ garanteprivacy.
 geekandjob.
 \newblock Jenkins.
 \newblock \url{https://www.geekandjob.com/wiki/jenkins}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{storia_cloud}
+giornalettismo.
+\newblock Storia del cloud.
+\newblock \url{https://www.giornalettismo.com/cosa-e-il-cloud-come-funziona-storia/}.
+\newblock Accessed: 2023-11-10.
+
+\bibitem{gestione_vulnerabiltà}
+Docs Italia.
+\newblock Manuale di abilitazione al cloud.
+\newblock 2022.
 \newblock Accessed: 2023-11-10.
 
 \bibitem{Malware}
