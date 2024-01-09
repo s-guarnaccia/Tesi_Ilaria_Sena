@@ -117,7 +117,7 @@ Subito sotto verranno riportate le descrizioni di ogni categoria illustrata dell
 \end{figure}
 \subsection{Broken Access Control} 
 Il controllo degli accessi fa rispettare la policy in modo che gli utenti non possano agire al di fuori dei permessi previsti. Problematiche su questo tipo di controllo tipicamente portano alla divulgazione non autorizzata di informazioni, alla modifica o alla distruzione di tutti i dati o l'esecuzione di una funzione di business al di fuori dei limiti dell'utente. 
-\subsection{Come prevenire Broken Access Control}
+\subsection{Prevenire Broken Access Control}
 Il controllo degli accessi è efficace solo nel codice lato server o API server-less, dove l'attaccante non può modificare i meccanismi di controllo dell'accesso o i metadati.
 
 \begin{itemize}
@@ -136,7 +136,7 @@ Gli sviluppatori e lo staff di QA dovrebbero includere test funzionali di contro
 Il primo passo è determinare le esigenze di protezione dei dati. Per esempio, password, numeri di carte di credito, documenti sanitari, informazioni personali e segreti aziendali richiedono una protezione adeguata, soprattutto se quei dati ricadono sotto le leggi sulla privacy, ad es. General Data Protection Regulation (GDPR), o regolamenti, ad es, protezione dei dati finanziari come il PCI Data Security Standard (PCI DSS). 
 
 Per tutte queste tipologie di dati bisogna porre maggiore attenzione nel momento in cui: i dati sono trasmessi in chiaro,  sono implementati algoritmi o protocolli crittografici vecchi o deboli,  sono utilizzate chiavi crittografiche deboli, vecchie e/o riutilizzate, non viene applicata adeguata crittografia, le password sono chiavi crittografiche, vengono utilizzate funzioni hash deprecate. 
-\subsection{Come prevenire Cryptographic Failures} 
+\subsection{Prevenire Cryptographic Failures} 
 \begin{itemize}
     \item Identificare quali dati sono sensibili secondo le leggi sulla privacy, requisiti normativi o esigenze aziendali.
     \item Non conservare inutilmente i dati sensibili. Eliminarli il prima possibile.
@@ -152,7 +152,7 @@ Per tutte queste tipologie di dati bisogna porre maggiore attenzione nel momento
 Una applicazione è vulnerabile alle injection quando i dati forniti dall’utente non sono validati, filtrati o sanificati, le query dinamiche senza escaping contestuale vengono passate direttamente all’interprete, input malevolo viene utilizzato in modo diretto o concatenato. 
 
 Le forme più comuni di injection che si possono trovare sono: SQL, NoSQL, OS command (quando il payload inserito dall'utente malintenzionato viene eseguito come comando del sistema operativo), Expression Language (quando l’attaccante controlla i dati in entrata dell’interprete). Questi risultano solo alcuni attacchi injection ma ce ne possono essere di molte altre tipologie.
-\subsection{Come prevenire Injection} 
+\subsection{Prevenire Injection} 
 \begin{itemize}
     \item Per qualsiasi query dinamica è consigliabile svolgere l'escape dei caratteri speciali usando la sintassi di escape specifica per quell’interprete.
     \item Usare controlli SQL all’interno delle query per prevenire la divulgazione di massa dei record, questo in caso di SQL injection.
@@ -166,7 +166,7 @@ Insecure Design viene definita come una macro categoria che include tutte le pro
 Quando si parla di design insicuro di un’applicazione web si fa riferimento ad una infrastruttura costruita su basi non solide: le vulnerabilità si trovano nel codice sorgente. Al contrario quando si parla di difetti di implementazione software parliamo di una struttura di base sicura ma che viene aggiornata con pezzi di codice che comportano la comparsa di vulnerabilità a lungo termine. 
 
 La progettazione insicura di un software o di implementazione in ogni caso, comportano una serie di pericoli che sono provocati dal trascurare gli standard di sicurezza informatica minimi. Ad ogni modo, la presenza di vulnerabilità di InSecure Design costituisce un problema non da poco considerato che le minacce informatiche sono in continua evoluzione e risolvere queste problematiche significa riprogettare logiche e funzionamenti del software.
-\subsection{Come prevenire Insecure Design} 
+\subsection{Prevenire Insecure Design} 
 \begin{itemize}
     \item Stabilire e utilizzare un ciclo di vita di sviluppo sicuro con i professionisti di AppSec per aiutare a valutare e progettare la sicurezza e i controlli relativi alla privacy.
     \item Stabilire e utilizzare una libreria di design pattern sicuri o componenti pronti all'uso.
@@ -176,7 +176,7 @@ La progettazione insicura di un software o di implementazione in ogni caso, comp
 \end{itemize}
 \subsection{Security Misconfiguration}
 Una applicazione potrebbe risultare vulnerabile se ci sono permessi configurati in maniera impropria sui servizi cloud, se sono abilitate o installate funzioni non necessarie, se account di default sono ancora abilitati con password predefinite, a seguito di condizione di errore vengono rivelati agli utenti messaggi di errore verbosi, se nei sistemi aggiornati le funzionalità di sicurezza non vengono abilitate o configurate nella maniera opportuna, se le impostazioni di sicurezza non sono configurati in maniera consona su valori sicuri e/o se  il software non è aggiornato.
-\subsection{Come prevenire Security Misconfiguration}
+\subsection{Prevenire Security Misconfiguration}
 \begin{itemize}
     \item Un processo di hardening (insieme di operazioni specifiche di configurazione di un dato sistema informatico che mira a minimizzare l’impatto di possibili attacchi informatici) ripetibile rende veloce e facile il deploy ( è il processo di installazione, configurazione, aggiornamento ed abilitazione di un’applicazione o di una suite di applicazioni che consente di utilizzare un sistema software ) di un altro ambiente preconfigurato in modo sicuro. Gli ambienti di sviluppo dovrebbero essere tutti configurati in modo speculare, con credenziali diverse per ogni ambiente. Questo processo dovrebbe essere automatizzato per minimizzare lo sforzo richiesto per impostare un nuovo ambiente configurato in modo sicuro.
     \item Rimuovere o non installare funzionalità e framework inutilizzati.
@@ -186,7 +186,7 @@ Una applicazione potrebbe risultare vulnerabile se ci sono permessi configurati 
 \end{itemize}
 \subsection{Vulnerable and Outdated Components}
 La vulnerabilità si presenta nel caso in cui il software risulta vulnerabile, non supportato o non aggiornato, se non si fa la scansione delle vulnerabilità di libreria regolarmente e non si consultano i report di sicurezza relativi ai componenti utilizzati, se non si corregge/aggiorna la piattaforma sottostante, i framework, le dipendenze in maniera tempestiva, se gli sviluppatori non testano la compatibilità delle librerie aggiornate o delle librerie nuove o se i componenti non vengono configurati in modo sicuro.
-\subsection{Come prevenire Vulnerable and Outdated Components}
+\subsection{Prevenire Vulnerable and Outdated Components}
 Per prevenire questa tipologia di vulnerabilità bisognerebbe: 
 
 \begin{itemize}
@@ -199,7 +199,7 @@ Per prevenire questa tipologia di vulnerabilità bisognerebbe:
 
 \subsection{Identification and Authentication Failures}
 Precedentemente sotto il nome di Broken Authentication ci possono essere debolezze sui meccanismi di autenticazione nel caso in cui l’applicazione permette attacchi automatici dove l’attaccante ha una lista di coppie nome utente e password validi, se permette attacchi di brute force o altri attacchi automatici, se permette password di default deboli, se presenta un recupero delle credenziali e delle password deboli, se memorizza le password in chiaro, se non ha un sistema di autenticazione a due fattori, se riutilizza l’identificatore di sessione dopo un login avvenuto con successo, non l’indicatore di sessione.
-\subsection{Come prevenire Identification and Authentication Failures}
+\subsection{Prevenire Identification and Authentication Failures}
 Per prevenire questa tipologia di vulnerabilità bisognerebbe: 
 
 \begin{itemize}
@@ -245,7 +245,7 @@ Esistono due tipologie di OTP utilizzabili:
 
 \subsection{Software and Data Integrity Failures}
 Le problematiche dell'integrità del software e dei dati riguardano il codice e l'infrastruttura che non ne verificano adeguatamente l'integrità. Un esempio è quando un'applicazione si affida a plugin, librerie o moduli da fonti, repository e content delivery network (CDN) non attendibili.
-\subsection{Come prevenire Software and Data Integrity Failures}
+\subsection{Prevenire Software and Data Integrity Failures}
 \begin{itemize}
     \item Usare firme digitali o meccanismi equivalenti per verificare che il software o i dati provengano dalla fonte prevista e non siano stati alterati.
     \item Assicuratevi che venga usato uno strumento di sicurezza della supply chain del software, come OWASP Dependency Check o OWASP CycloneDX, per verificare che i componenti non contengano vulnerabilità note.
@@ -255,7 +255,7 @@ Le problematiche dell'integrità del software e dei dati riguardano il codice e 
 \end{itemize}
 \subsection{Security Logging and Monitoring Failures}
 Questa categoria è per aiutare a rilevare, svolgere escalation e rispondere alle violazioni attive. Senza logging e monitoraggio, le violazioni non possono essere rilevate. Il logging, il rilevamento, il monitoraggio e la risposta attiva insufficienti si verificano ogni volta che gli eventi verificabili come il login, i login falliti e le transazioni ad alto valore non vengono registrate, se warning ed errori sono inadeguati/poco chiari, se i file di log vengono memorizzati solo localmente, se non sono presenti le soglie di allarme/processi di escalation della risposta, i penetration test e le scansioni non danno nessun allarme, se l’applicazione non è in grado di rilevare, svolgere escalation o avvisare per gli attacchi attivi in real-time o quasi real time. Si è poi inoltre vulnerabili alla fuga di informazioni se gli eventi di logging e gli alert sono visibili ad un utente o ad un attaccante.
-\subsection{Come prevenire Security Logging and Monitoring Failure}
+\subsection{Prevenire Security Logging and Monitoring Failure}
 \begin{itemize}
     \item Assicurarsi che tutti i login, il controllo degli accessi e gli errori a seguito della verifica degli input lato server possono essere registrati con un contesto utente sufficiente per identificare account sospetti o malevoli e conservati per un tempo sufficiente a consentire un'analisi forense a posteriori.
     \item Assicurarsi che i dati di log siano codificati correttamente per prevenire injection o attacchi ai sistemi di registrazione o monitoraggio.
@@ -267,7 +267,7 @@ Questa categoria è per aiutare a rilevare, svolgere escalation e rispondere all
 Le falle SSRF si verificano ogni volta che un'applicazione web recupera una risorsa remota senza validare l'URL fornito dall'utente. Questo permette ad un attaccante di forzare l'applicazione ad inviare una richiesta preparata ad hoc ad una destinazione inattesa, anche quando è protetta da un firewall, una VPN o un altro tipo di network access control list (ACL).
 
 Dato che le moderne applicazioni web forniscono agli utenti finali parecchie funzionalità, scaricare dati da un URL è uno scenario comune. Di conseguenza, l'incidenza di SSRF è in crescita. Inoltre, la gravità di SSRF sta diventando più alta a causa dei servizi cloud e alla complessità crescente delle architetture.
-\subsection{Come prevenire Server-Side Request Forgery}
+\subsection{Prevenire Server-Side Request Forgery}
 \subsubsection{Dal layer di rete:}
 \begin{itemize}
     \item Segmentare in reti separate le funzionalità che richiedono un accesso alle risorse remote per ridurre l'impatto di SSRF.
