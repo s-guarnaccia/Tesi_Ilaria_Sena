@@ -75,4 +75,4 @@
 \contentsline {subsection}{\numberline {3.5.6}Gestione delle vulnerabilità in applicazioni Cloud}{44}{subsection.3.5.6}%
 \contentsline {subsection}{\numberline {3.5.7}Vulnerabilità comuni in applicazioni Cloud}{44}{subsection.3.5.7}%
 \contentsline {subsection}{\numberline {3.5.8}Funzionalità che rendono importante la gestione delle vulnerabilità del Cloud}{45}{subsection.3.5.8}%
-\contentsline {subsection}{\numberline {3.5.9}Pratiche di gestione delle vulnerabilità del Cloud}{46}{subsection.3.5.9}%
+\contentsline {subsection}{\numberline {3.5.9}Pratiche di gestione delle vulnerabilità del Cloud}{45}{subsection.3.5.9}%
