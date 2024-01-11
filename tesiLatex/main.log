@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  9 JAN 2024 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  11 JAN 2024 12:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -714,13 +714,16 @@ Capitolo 1.
 <Immagini/img1.png, id=402, 440.847pt x 240.29774pt>
 File: Immagini/img1.png Graphic file (type png)
 <use Immagini/img1.png>
-Package pdftex.def Info: Immagini/img1.png  used on input line 22.
+Package pdftex.def Info: Immagini/img1.png  used on input line 21.
 (pdftex.def)             Requested size: 352.67807pt x 192.23845pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [8]
 <Immagini/img2.png, id=407, 436.63126pt x 334.851pt>
 File: Immagini/img2.png Graphic file (type png)
 <use Immagini/img2.png>
-Package pdftex.def Info: Immagini/img2.png  used on input line 31.
+Package pdftex.def Info: Immagini/img2.png  used on input line 30.
 (pdftex.def)             Requested size: 349.30548pt x 267.88115pt.
  [9 <./Immagini/img1.png> <./Immagini/img2.png>] [10
 
@@ -734,10 +737,10 @@ Underfull \vbox (badness 1024) has occurred while \output is active []
 <Immagini/img3.png, id=451, 536.60475pt x 149.358pt>
 File: Immagini/img3.png Graphic file (type png)
 <use Immagini/img3.png>
-Package pdftex.def Info: Immagini/img3.png  used on input line 114.
+Package pdftex.def Info: Immagini/img3.png  used on input line 115.
 (pdftex.def)             Requested size: 429.28436pt x 119.48654pt.
 
-Overfull \hbox (2.49301pt too wide) in paragraph at lines 114--115
+Overfull \hbox (2.49301pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
@@ -745,23 +748,23 @@ Overfull \hbox (2.49301pt too wide) in paragraph at lines 114--115
 <Immagini/img4.png, id=512, 322.806pt x 211.992pt>
 File: Immagini/img4.png Graphic file (type png)
 <use Immagini/img4.png>
-Package pdftex.def Info: Immagini/img4.png  used on input line 332.
+Package pdftex.def Info: Immagini/img4.png  used on input line 334.
 (pdftex.def)             Requested size: 193.68509pt x 127.19617pt.
  [25 <./Immagini/img4.png>]
 <Immagini/img5.png, id=521, 466.74374pt x 487.8225pt>
 File: Immagini/img5.png Graphic file (type png)
 <use Immagini/img5.png>
-Package pdftex.def Info: Immagini/img5.png  used on input line 349.
+Package pdftex.def Info: Immagini/img5.png  used on input line 351.
 (pdftex.def)             Requested size: 373.3955pt x 390.25853pt.
  [26 <./Immagini/img5.png>]
 Capitolo 3.
 <Immagini/img6.png, id=527, 498.663pt x 113.82526pt>
 File: Immagini/img6.png Graphic file (type png)
 <use Immagini/img6.png>
-Package pdftex.def Info: Immagini/img6.png  used on input line 364.
+Package pdftex.def Info: Immagini/img6.png  used on input line 366.
 (pdftex.def)             Requested size: 448.79254pt x 102.44177pt.
 
-Overfull \hbox (22.00119pt too wide) in paragraph at lines 364--365
+Overfull \hbox (22.00119pt too wide) in paragraph at lines 366--367
  [][] 
  []
 
@@ -772,13 +775,13 @@ Overfull \hbox (22.00119pt too wide) in paragraph at lines 364--365
 <Immagini/img7.png, id=539, 876.27374pt x 329.43076pt>
 File: Immagini/img7.png Graphic file (type png)
 <use Immagini/img7.png>
-Package pdftex.def Info: Immagini/img7.png  used on input line 422.
+Package pdftex.def Info: Immagini/img7.png  used on input line 424.
 (pdftex.def)             Requested size: 481.95204pt x 181.18747pt.
  [29] [30 <./Immagini/img7.png>]
 <Immagini/img8.png, id=553, 868.4445pt x 314.97675pt>
 File: Immagini/img8.png Graphic file (type png)
 <use Immagini/img8.png>
-Package pdftex.def Info: Immagini/img8.png  used on input line 468.
+Package pdftex.def Info: Immagini/img8.png  used on input line 470.
 (pdftex.def)             Requested size: 477.64597pt x 173.23773pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -787,56 +790,56 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Immagini/img9.png, id=560, 1109.94675pt x 490.2315pt>
 File: Immagini/img9.png Graphic file (type png)
 <use Immagini/img9.png>
-Package pdftex.def Info: Immagini/img9.png  used on input line 482.
+Package pdftex.def Info: Immagini/img9.png  used on input line 484.
 (pdftex.def)             Requested size: 443.97084pt x 196.08913pt.
  [32 <./Immagini/img8.png> <./Immagini/img9.png>]
 <Immagini/img12.png, id=570, 1149.093pt x 390.258pt>
 File: Immagini/img12.png Graphic file (type png)
 <use Immagini/img12.png>
-Package pdftex.def Info: Immagini/img12.png  used on input line 499.
+Package pdftex.def Info: Immagini/img12.png  used on input line 501.
 (pdftex.def)             Requested size: 459.62906pt x 156.10042pt.
 <Immagini/img11.png, id=571, 761.84625pt x 519.1395pt>
 File: Immagini/img11.png Graphic file (type png)
 <use Immagini/img11.png>
-Package pdftex.def Info: Immagini/img11.png  used on input line 510.
+Package pdftex.def Info: Immagini/img11.png  used on input line 512.
 (pdftex.def)             Requested size: 380.9222pt x 259.5691pt.
  [33 <./Immagini/img12.png>] [34 <./Immagini/img11.png>]
 <Immagini/img13.png, id=586, 1156.32pt x 493.24275pt>
 File: Immagini/img13.png Graphic file (type png)
 <use Immagini/img13.png>
-Package pdftex.def Info: Immagini/img13.png  used on input line 534.
+Package pdftex.def Info: Immagini/img13.png  used on input line 536.
 (pdftex.def)             Requested size: 462.5198pt x 197.2936pt.
 <Immagini/img14.png, id=587, 383.63326pt x 334.24875pt>
 File: Immagini/img14.png Graphic file (type png)
 <use Immagini/img14.png>
-Package pdftex.def Info: Immagini/img14.png  used on input line 540.
+Package pdftex.def Info: Immagini/img14.png  used on input line 542.
 (pdftex.def)             Requested size: 268.54144pt x 233.97252pt.
 <Immagini/img10.png, id=588, 1149.093pt x 597.432pt>
 File: Immagini/img10.png Graphic file (type png)
 <use Immagini/img10.png>
-Package pdftex.def Info: Immagini/img10.png  used on input line 549.
+Package pdftex.def Info: Immagini/img10.png  used on input line 551.
 (pdftex.def)             Requested size: 459.62906pt x 238.96857pt.
  [35 <./Immagini/img13.png> <./Immagini/img14.png>]
 <Immagini/img15.png, id=596, 316.18124pt x 493.24275pt>
 File: Immagini/img15.png Graphic file (type png)
 <use Immagini/img15.png>
-Package pdftex.def Info: Immagini/img15.png  used on input line 559.
+Package pdftex.def Info: Immagini/img15.png  used on input line 561.
 (pdftex.def)             Requested size: 189.7102pt x 295.94794pt.
  [36 <./Immagini/img10.png> <./Immagini/img15.png>]
 <Immagini/img16.png, id=603, 465.53925pt x 234.8775pt>
 File: Immagini/img16.png Graphic file (type png)
 <use Immagini/img16.png>
-Package pdftex.def Info: Immagini/img16.png  used on input line 578.
+Package pdftex.def Info: Immagini/img16.png  used on input line 580.
 (pdftex.def)             Requested size: 325.87524pt x 164.41312pt.
 <Immagini/img17.png, id=604, 698.61pt x 401.0985pt>
 File: Immagini/img17.png Graphic file (type png)
 <use Immagini/img17.png>
-Package pdftex.def Info: Immagini/img17.png  used on input line 586.
+Package pdftex.def Info: Immagini/img17.png  used on input line 588.
 (pdftex.def)             Requested size: 419.16924pt x 240.66095pt.
 <Immagini/img18.png, id=605, 777.50475pt x 433.62pt>
 File: Immagini/img18.png Graphic file (type png)
 <use Immagini/img18.png>
-Package pdftex.def Info: Immagini/img18.png  used on input line 592.
+Package pdftex.def Info: Immagini/img18.png  used on input line 594.
 (pdftex.def)             Requested size: 388.75142pt x 216.80946pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -845,23 +848,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Immagini/img19.png, id=618, 501.67426pt x 243.309pt>
 File: Immagini/img19.png Graphic file (type png)
 <use Immagini/img19.png>
-Package pdftex.def Info: Immagini/img19.png  used on input line 610.
+Package pdftex.def Info: Immagini/img19.png  used on input line 612.
 (pdftex.def)             Requested size: 351.16957pt x 170.31514pt.
 <Immagini/img20.png, id=619, 1097.90175pt x 604.659pt>
 File: Immagini/img20.png Graphic file (type png)
 <use Immagini/img20.png>
-Package pdftex.def Info: Immagini/img20.png  used on input line 617.
+Package pdftex.def Info: Immagini/img20.png  used on input line 619.
 (pdftex.def)             Requested size: 384.27138pt x 211.63382pt.
 <Immagini/img22.png, id=620, 1156.32pt x 477.58424pt>
 File: Immagini/img22.png Graphic file (type png)
 <use Immagini/img22.png>
-Package pdftex.def Info: Immagini/img22.png  used on input line 624.
+Package pdftex.def Info: Immagini/img22.png  used on input line 626.
 (pdftex.def)             Requested size: 404.71806pt x 167.15698pt.
  [39 <./Immagini/img19.png> <./Immagini/img20.png>]
 <Immagini/img21.png, id=627, 620.3175pt x 453.49425pt>
 File: Immagini/img21.png Graphic file (type png)
 <use Immagini/img21.png>
-Package pdftex.def Info: Immagini/img21.png  used on input line 634.
+Package pdftex.def Info: Immagini/img21.png  used on input line 636.
 (pdftex.def)             Requested size: 341.17569pt x 249.42259pt.
  [40 <./Immagini/img22.png> <./Immagini/img21.png>] [41]
 Underfull \vbox (badness 1308) has occurred while \output is active []
@@ -976,7 +979,7 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B4A793CC781DF3F1A9DF0755F400ED6A;12649.
+(rerunfilecheck)             Checksum: C4996B440967B559FDABCBF9352C5651;12690.
  ) 
 Here is how much of TeX's memory you used:
  20262 strings out of 474175
@@ -987,7 +990,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,12n,107p,1250b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (51 pages, 1993114 bytes).
+Output written on main.pdf (51 pages, 1992758 bytes).
 PDF statistics:
  797 PDF objects out of 1000 (max. 8388607)
  672 compressed objects within 7 object streams

@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {2.3}Attacchi zero-day}{13}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Attacchi zero-day recenti}{14}{subsection.2.3.1}%
 \contentsline {section}{\numberline {2.4}Vulnerabilità web e come classificarle}{14}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Ultimi cambiamenti top10}{15}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Ultimi cambiamenti Owasp Top 10}{15}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Broken Access Control}{15}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Prevenire Broken Access Control}{15}{subsection.2.4.3}%
 \contentsline {subsection}{\numberline {2.4.4}Cryptographic Failures}{16}{subsection.2.4.4}%
@@ -46,7 +46,7 @@
 \contentsline {section}{\numberline {2.5}Standard , best practice e leggi }{23}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Il GDPR}{23}{subsection.2.5.1}%
 \contentsline {subsubsection}{Terminologia utile}{23}{section*.10}%
-\contentsline {subsubsection}{Introduzione}{24}{section*.11}%
+\contentsline {subsubsection}{Introduzione}{23}{section*.11}%
 \contentsline {subsubsection}{La rilevanza giuridica dell’analisi del rischio}{24}{section*.12}%
 \contentsline {subsubsection}{Adempimenti per l’analisi del rischio}{24}{section*.13}%
 \contentsline {subsection}{\numberline {2.5.2}Il NIST}{25}{subsection.2.5.2}%
