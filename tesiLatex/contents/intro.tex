@@ -383,7 +383,7 @@ I principali passi della gestione del rischio consistono in:
         \end{itemize}   
     \item Valutazione del rischio:  identificazione e caratterizzazione dei pericoli e dell’esposizione a essi, quantificazione del rischio, in relazione alle minacce esistenti e alla probabilità che queste possano concretizzarsi, e valutazione della sua accettabilità in relazione al contesto e alle strategie dell’organizzazione. Si divide in:
         \begin{itemize}
-            \item identificazione del rischio: Il metodo per identificare le vulnerabilità, conosciute (ed elencate nel CVE) e sconosciute, di un sistema è il cosiddetto Vulnerability Assessment (VA).  Possiamo suddividere VA in 4 fasi:
+            \item identificazione del rischio: Il metodo per identificare le vulnerabilità conosciute (ed elencate nel CVE) e sconosciute, di un sistema è il cosiddetto Vulnerability Assessment (VA).  Possiamo suddividere VA in 4 fasi:
                 \begin{itemize}
                     \item La prima fase prevede un vulnerability scanning, eseguito con strumenti automatici di scansione delle vulnerabilità ; esso permette di individuare una buona parte delle vulnerabilità già note.
                     \item La seconda fase prevede un security test evaluation (STE), con il quale si svolgono dei test di base tesi alla ricerca delle vulnerabilità più semplici.
@@ -417,7 +417,7 @@ I passaggi che costituiscono una pipeline CI/CD sono una serie di attività ragg
     \item Test: in questa fase si eseguono i test di sicurezza. 
     \item   Release: in questa fase il codice viene rilasciato in ambiente di testing.
 \end{itemize}
-Se vengono con successo le precedenti fasi citate,  avverrà il deploy in produzione.
+Se vengono eseguite con successo le precedenti fasi citate,  avverrà il deploy in produzione.
 Ecco un esempio in cui si effettua il deploy, successivamente potremmo osservare il fallimento di alcuni di questi campi.
 \begin{figure}[H]
     %centrare senza margini
@@ -439,7 +439,7 @@ Per ogni vulnerabilità individuata, è disponibile una dettagliata descrizione,
 
 Il compito del pentester consiste nel verificare la validità delle segnalazioni. Se una segnalazione è valida, il problema deve essere corretto; in caso contrario, la vulnerabilità individuata può essere dichiarata erroneamente positiva.
 \section{Tecnologie DevSecOps}
-Analogamente ai progetti basati su DevOps, l'utilizzo di strumenti DevSecOps richiede un'automazione completa, limitando, in casi eccezionali, qualsiasi intervento manuale e evitando modifiche alle configurazioni e script personalizzati. 
+L'utilizzo di strumenti DevSecOps richiede un'automazione completa, limitando, in casi eccezionali, qualsiasi intervento manuale e evitando modifiche alle configurazioni e script personalizzati. 
 
 Gli strumenti DevSecOps devono garantire una risposta in tempo reale, poiché la velocità dei cicli CI/CD e la riduzione del time to market delle applicazioni rimangono tra i principali driver per l'adozione delle metodologie di sviluppo agili. Ottimizzare anche i requisiti di sicurezza dell'applicazione entro tempi ragionevoli costituisce un valore aggiunto fondamentale.
 
@@ -448,13 +448,13 @@ L'automazione e la velocità devono essere accompagnate da precisione e qualità
 Sul fronte della sicurezza, è cruciale limitare i falsi positivi e i falsi negativi, fenomeni che potrebbero rallentare drasticamente un'applicazione generando allarmi di sicurezza privi di fondamento. Una corretta implementazione di DevSecOps richiede che gli strumenti siano in grado di eseguire test di sicurezza per eliminare o ridurre al minimo gli allarmi dovuti a falsi positivi e falsi negativi, fornendo al team di sviluppo informazioni utili per correggere tempestivamente le vulnerabilità individuate.
 \subsection{Jenkins}
 \cite{Jenkins}
-Jenkins è un server open source di CI/CD (Continuous Integration, Continuous Deployment) scritto in Java. 
+Jenkins è un server open source, Continuous Integration, Continuous Deployment, scritto in Java. 
 
 Jenkins consente di automatizzare le diverse fasi del ciclo di vita del software, dalla compilazione al test alla distribuzione.
 
-Una delle caratteristiche principali di Jenkins è la Jenkins Pipeline (o semplicemente "Pipeline") che è una suite di plug-in che supporta l'implementazione e l'integrazione di pipeline di distribuzione continua in Jenkins.
+Una delle caratteristiche principali di Jenkins è la Jenkins Pipeline che è una suite di plug-in che supporta l'implementazione e l'integrazione di pipeline di distribuzione continua in Jenkins.
 
-Una pipeline di distribuzione continua è un'espressione automatizzata del processo per ottenere il software dal controllo della versione fino ai tuoi utenti e clienti.
+Una pipeline di distribuzione continua è un'espressione automatizzata del processo per ottenere il software.
 
 Jenkins Pipeline fornisce un set estendibile di strumenti per modellare pipeline di distribuzione da semplici a complesse. 
 
@@ -478,7 +478,7 @@ Snyk è una soluzione di sicurezza destinata agli sviluppatori che aiuta le azie
 
 La scansione altamente accurata di Snyk rileva le vulnerabilità in tempo reale e fornisce un contesto di definizione delle priorità olistico in modo da sapere sempre cosa risolvere per primo.
 
-Snyk segnala ogni vulnerabilità trovata è popone modi di risoluzione del problema.
+Snyk segnala ogni vulnerabilità trovata è propone modi di risoluzione del problema.
 \begin{figure}[H]
     %centrare senza margini
     \makebox[\textwidth][c]{\includegraphics[scale=0.4]{Immagini/img9.png}}%
@@ -517,13 +517,13 @@ Questa è una prima pagina di un report in cui troviamo l’indice di tale docum
 Offre dunque tutti gli strumenti necessari per poter effettuare una analisi dettagliata e completa delle vulnerabilità. 
 \subsection{Esempi pratici} 
 \subsubsection{Esempio di test di applicazioni java: Notsecurebank}
-Motivazioni della scelta del linguaggio: Java è un linguaggio di programmazione orientata a oggetti multipiattaforma che viene eseguito su miliardi di dispositivi in tutto il mondo e nonostante sia stato creato più di 20 anni fa, java è attualmente il linguaggio più diffuso tra gli sviluppatori di App, ne citiamo qui alcune famose come per esempio Spotify,Twitter,LinkedIn e moltre altre. 
+Motivazioni della scelta del linguaggio: Java è un linguaggio di programmazione orientata a oggetti multipiattaforma che viene eseguito su miliardi di dispositivi in tutto il mondo e nonostante sia stato creato più di 20 anni fa, Java è attualmente il linguaggio più diffuso tra gli sviluppatori di App, ne citiamo qui alcune famose come per esempio Spotify,Twitter,LinkedIn e moltre altre. 
 
 Spesso Java viene utilizzata con un framework come per esempio Spring che è molto diffuso per la creazione di applicazioni autonome, adatte ad ambienti di produzione che vengono eseguite su JVM. Java Spring Boot semplifica e velocizza lo sviluppo di applicazioni web. 
 
 Di norma risulta vantaggioso utilizzare lo strumento Maven per i progetti Java, esso è in grado di organizzare le dipendenze facilitando l’organizzazione dei progetti in maniera più pulita standardizzando la sua struttura.
 
-Nel nostro esempio utilizzeremo una semplice applicazione Java. 
+Nel nostro esempio viene utilizzata una semplice applicazione Java. 
 
 Strumenti utilizzati:
 \begin{itemize}
@@ -644,9 +644,9 @@ Di seguito alla generazione del report è opportuno testare manualmente le vulne
 
 
 \section{Cloud Computing} 
-Le aziende stanno sfruttando il Cloud come fattore chiave per completare la trasformazione digitale e la pandemia di COVID ha ulteriormente accelerato questa tendenza. Il cloud sta diventando uno dei principali punti all’ordine del giorno dei dirigenti poiché le aziende stanno passando da un approccio frammentario a una trasformazione digitale end-to-end più olistica con il cloud al centro. 
-Quando si supera un determinato limite di storage e utilizzo dei dati perché l’azienda sta attraversando una fase di espansione, solitamente ci si affida a un sistema di server che funziona su hardware sarai costretto, prima o poi, a modificarne una parte o a sostituirli completamente, con tutte le spese connesse.
-Se, invece, si opta per una gestione dei dati su Cloud, si può scegliere di aumentare lo spazio a disposizione senza incidere sugli investimenti in beni materiali, che pesano sul bilancio annuale in quantità notevole e possono rappresentare un freno allo sviluppo armonico dell’azienda, sia al suo interno che all’esterno. 
+Le aziende stanno sfruttando il Cloud come fattore chiave per completare la trasformazione digitale e la pandemia di COVID ha ulteriormente accelerato questa tendenza. Il cloud sta diventando uno dei principali punti all’ordine del giorno  poiché le aziende stanno passando da un approccio frammentario a una trasformazione digitale end-to-end più olistica con il cloud al centro. 
+Quando si supera un determinato limite di storage e utilizzo dei dati perché l’azienda sta attraversando una fase di espansione, solitamente ci si affida a un sistema di server che funziona su hardware.
+Se si opta per una gestione dei dati su Cloud, si può scegliere di aumentare lo spazio a disposizione senza incidere sugli investimenti in beni materiali, che pesano sul bilancio annuale in quantità notevole e possono rappresentare un freno allo sviluppo armonico dell’azienda, sia al suo interno che all’esterno. 
 Il Cloud computing rappresenta una valida soluzione che aiuta tutte le aziende a crescere in modo sano, indipendentemente dalle dimensioni e dal fatturato, perché contribuisce a diffondere un clima di trasparenza, condivisione e collaborazione.
 Il Cloud aiuta le aziende a crescere e a svilupparsi, in particolare se si tratta di realtà piccole ma dinamiche e in forte sviluppo, un sistema di gestione condivisa e flessibile dei dati aziendali contribuisce a creare e mantenere ordine, sicurezza e competitività, con un abbassamento dei costi, al contrario per imprese medio-grandi  l’adozione del Cloud Computing consente l’elaborazione e condivisione in tempo reale di un’ingente quantità di dati e informazioni, con la massima sicurezza e attraverso una struttura di autorizzazioni e permessi che controllano in modo automatico gli accessi.
 \subsection{Cos’è il Cloud Computing} 
@@ -661,8 +661,8 @@ Nel cloud computing, ogni server è connesso all’altro, creando così una rete
 \subsection{Evoluzione del Cloud Computing} 
 \cite{storia_cloud}
 Si tratta di un concetto le cui radici risalgono agli anni Sessanta e che con il passare del tempo è mutato. Non solo per via del progresso tecnologico, ma anche per gli obiettivi.All’inizio non vi era una vera e propria definizione, né una parola che potesse racchiudere questo concetto mutato con il passare del tempo. Tra la fine degli anni ’60 e durante il seguente decennio, si iniziò a parlare di “time-sharing”, ovvero l’utilizzo simultaneo di grandi unità centrali (mainframe) da parte di un numero elevato (non come oggi) di utenti che potevano accedere ai pc in remoto, dai propri dispositivi.
-Questa, dunque, è stata la base storica che ci aiuta a capire cos'è un Cloud. Il primo grande passo in avanti è arrivato tra gli anni ’80 e ’90, quando grazie all’inizio della diffusione di pc e di internet, le principali aziende del settore hanno iniziato a realizzare e rendere fruibili i primi servizi di hosting: con questi, i clienti che acquistavano questo prodotto informatico, erano in grado di archiviare i dati sui server remoti di terze parti. Dunque, in questi anni il concetto di Cloud ebbe un grande impulso verso lo sviluppo.
-Tra la fine degli anni ’90 e i primi anni 2000, il Cloud iniziò a diventare uno strumento utilizzato su larga scala, mutando anche alcuni dettagli del suo significato originale: da allora, infatti, questo termine ha iniziato a indicare la fornitura di servizi e risorse informatiche attraverso Internet. Non solo, dunque, archiviazione, ma anche un’altra serie di funzionalità utili per la gestione dei servizi informatici privati. E non è un caso che nel 2006 Amazon immise sul mercato il suo AWS (Amazon Web Services), un servizio in grado di fornire non solo i principi basilari del cloud computing (ovvero l’archiviazione di dati personali), ma anche funzioni di calcolo e di database rivolti ad aziende e sviluppatori. Da quel momento, moltissime altre aziende Big Tech hanno iniziato a investire e sviluppare i propri sistemi di Cloud Computing, creando una vera e propria contesa commerciale. Subito dopo Amazon, infatti, anche Google lanciò il proprio servizio (Google Cloud Platform), seguito da Microsoft che ha puntato tutto su Azure. Oggi,il panorama commerciale attorno al Cloud si è arricchito di numerosi attori.
+Questa è stata la base storica che ci aiuta a capire cos'è un Cloud. Il primo grande passo in avanti è arrivato tra gli anni ’80 e ’90, quando grazie all’inizio della diffusione di pc e di internet, le principali aziende del settore hanno iniziato a realizzare e rendere fruibili i primi servizi di hosting: con questi, i clienti che acquistavano questo prodotto informatico, erano in grado di archiviare i dati sui server remoti di terze parti. Dunque, in questi anni il concetto di Cloud ebbe un grande impulso verso lo sviluppo.
+Tra la fine degli anni ’90 e i primi anni 2000, il Cloud iniziò a diventare uno strumento utilizzato su larga scala, mutando anche alcuni dettagli del suo significato originale: da allora, infatti, questo termine ha iniziato a indicare la fornitura di servizi e risorse informatiche attraverso Internet. Non solo archiviazione ma anche un’altra serie di funzionalità utili per la gestione dei servizi informatici privati.Nel 2006 Amazon immise sul mercato il suo AWS (Amazon Web Services), un servizio in grado di fornire non solo i principi basilari del cloud computing (ovvero l’archiviazione di dati personali), ma anche funzioni di calcolo e di database rivolti ad aziende e sviluppatori. Da quel momento, moltissime altre aziende Big Tech hanno iniziato a investire e sviluppare i propri sistemi di Cloud Computing, creando una vera e propria contesa commerciale. Subito dopo Amazon, infatti, anche Google lanciò il proprio servizio (Google Cloud Platform), seguito da Microsoft che ha puntato tutto su Azure. Oggi,il panorama commerciale attorno al Cloud si è arricchito di numerosi attori.
 \subsection{Modelli di distribuzione del Cloud Computing}
 \begin{itemize}
     \item Cloud pubblico: connettersi ad un cloud pubblico significa utilizzare una connessione Internet per accedere alle risorse informatiche ospitate su data center gestiti da un fornitore di servizi cloud di terze parti, anziché possedere e mantenere tali risorse in sede. Un cloud pubblico condiviso prevede che molte organizzazioni (o tenant) condividano la stessa infrastruttura.
@@ -708,7 +708,7 @@ Il cloud computing moderno è così vasto e complesso che componenti come dispos
 \begin{itemize}
     \item Protezione di sicurezza ottimale: la gestione delle vulnerabilità del Cloud è responsabile del monitoraggio e del rilevamento delle minacce del sistema. Si vuole che dati e le applicazioni siano completamente protetti, l’obiettivo è identificare le minacce e risolverle in maniera efficiente.
     \item Prevenzione efficace: misure preventive efficaci in modo che qualunque sia l'intensità dell'attacco diretto all'applicazione cloud e ai dati cruciali, la correzione delle vulnerabilità del cloud può facilmente prevenirli e bloccarli.
-    \item Efficacia dei costi:Il monitoraggio, la gestione e il rilevamento manuale delle minacce nell'infrastruttura cloud sono attività costose e ingombranti, per questo con il monitoraggio costante e la rapida risoluzione delle minacce, la gestione delle vulnerabilità del cloud  evita costi e perdite colossali nel caso in cui l'infrastruttura venga sfruttata.
+    \item Efficacia dei costi: il monitoraggio, la gestione e il rilevamento manuale delle minacce nell'infrastruttura cloud sono attività costose e ingombranti, per questo con il monitoraggio costante e la rapida risoluzione delle minacce, la gestione delle vulnerabilità del cloud  evita costi e perdite colossali nel caso in cui l'infrastruttura venga sfruttata.
     \item Risparmia tempo: quando i dati e le tue applicazioni nel cloud vengono monitorati dalla gestione delle vulnerabilità del cloud, puoi risparmiare molto tempo. 
 \end{itemize}
 \subsection{Pratiche di gestione delle vulnerabilità del Cloud}

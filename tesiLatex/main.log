@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  11 JAN 2024 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  10 MAR 2024 17:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -866,10 +866,7 @@ File: Immagini/img21.png Graphic file (type png)
 <use Immagini/img21.png>
 Package pdftex.def Info: Immagini/img21.png  used on input line 636.
 (pdftex.def)             Requested size: 341.17569pt x 249.42259pt.
- [40 <./Immagini/img22.png> <./Immagini/img21.png>] [41]
-Underfull \vbox (badness 1308) has occurred while \output is active []
-
- [42] [43] [44] [45]) [46] (./main.bbl
+ [40 <./Immagini/img22.png> <./Immagini/img21.png>] [41] [42] [43] [44] [45]) [46] (./main.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 12.
  (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -988,9 +985,9 @@ Here is how much of TeX's memory you used:
  42037 multiletter control sequences out of 15000+600000
  569954 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,1250b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,107p,1218b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (51 pages, 1992123 bytes).
+Output written on main.pdf (51 pages, 1991797 bytes).
 PDF statistics:
  797 PDF objects out of 1000 (max. 8388607)
  672 compressed objects within 7 object streams

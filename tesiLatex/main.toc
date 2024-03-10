@@ -70,7 +70,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Cos’è il Cloud Computing}{41}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Evoluzione del Cloud Computing}{41}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Modelli di distribuzione del Cloud Computing}{42}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Categorie di servizi del Cloud Computing}{43}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.4}Categorie di servizi del Cloud Computing}{42}{subsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.5.5}Vantaggi del Cloud Computing}{43}{subsection.3.5.5}%
 \contentsline {subsection}{\numberline {3.5.6}Gestione delle vulnerabilità in applicazioni Cloud}{44}{subsection.3.5.6}%
 \contentsline {subsection}{\numberline {3.5.7}Vulnerabilità comuni in applicazioni Cloud}{44}{subsection.3.5.7}%
