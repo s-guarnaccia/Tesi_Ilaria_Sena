@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  10 MAR 2024 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  24 MAR 2024 23:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -639,7 +639,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `contents/TitlePage.aux'.
 
  (./contents/TitlePage.tex
-<images/unito_logo.png, id=245, 349.305pt x 388.45125pt>
+<images/unito_logo.png, id=209, 349.305pt x 388.45125pt>
 File: images/unito_logo.png Graphic file (type png)
 <use images/unito_logo.png>
 Package pdftex.def Info: images/unito_logo.png  used on input line 8.
@@ -661,7 +661,7 @@ Package pdftex.def Info: images/unito_logo.png  used on input line 8.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.10 \end{abstract}
+l.22 \end{abstract}
                     [1
 
 
@@ -711,7 +711,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 Capitolo 1.
 [7]
-<Immagini/img1.png, id=402, 440.847pt x 240.29774pt>
+<Immagini/img1.png, id=352, 440.847pt x 240.29774pt>
 File: Immagini/img1.png Graphic file (type png)
 <use Immagini/img1.png>
 Package pdftex.def Info: Immagini/img1.png  used on input line 21.
@@ -720,7 +720,7 @@ Package pdftex.def Info: Immagini/img1.png  used on input line 21.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-<Immagini/img2.png, id=407, 436.63126pt x 334.851pt>
+<Immagini/img2.png, id=357, 436.63126pt x 334.851pt>
 File: Immagini/img2.png Graphic file (type png)
 <use Immagini/img2.png>
 Package pdftex.def Info: Immagini/img2.png  used on input line 30.
@@ -733,237 +733,194 @@ Capitolo 2.
 [11{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [12]
 Underfull \vbox (badness 1024) has occurred while \output is active []
 
- [13] [14]
-<Immagini/img3.png, id=451, 536.60475pt x 149.358pt>
+ [13]
+<Immagini/img3.png, id=389, 536.60475pt x 149.358pt>
 File: Immagini/img3.png Graphic file (type png)
 <use Immagini/img3.png>
-Package pdftex.def Info: Immagini/img3.png  used on input line 115.
+Package pdftex.def Info: Immagini/img3.png  used on input line 100.
 (pdftex.def)             Requested size: 429.28436pt x 119.48654pt.
 
-Overfull \hbox (2.49301pt too wide) in paragraph at lines 115--116
+Overfull \hbox (2.49301pt too wide) in paragraph at lines 100--101
  [][] 
  []
 
-[15 <./Immagini/img3.png>] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-<Immagini/img4.png, id=512, 322.806pt x 211.992pt>
-File: Immagini/img4.png Graphic file (type png)
-<use Immagini/img4.png>
-Package pdftex.def Info: Immagini/img4.png  used on input line 334.
-(pdftex.def)             Requested size: 193.68509pt x 127.19617pt.
- [25 <./Immagini/img4.png>]
-<Immagini/img5.png, id=521, 466.74374pt x 487.8225pt>
-File: Immagini/img5.png Graphic file (type png)
-<use Immagini/img5.png>
-Package pdftex.def Info: Immagini/img5.png  used on input line 351.
-(pdftex.def)             Requested size: 373.3955pt x 390.25853pt.
- [26 <./Immagini/img5.png>]
+[14 <./Immagini/img3.png>] [15] [16] [17] [18] [19] [20] [21] [22]
 Capitolo 3.
-<Immagini/img6.png, id=527, 498.663pt x 113.82526pt>
+<Immagini/img6.png, id=437, 498.663pt x 113.82526pt>
 File: Immagini/img6.png Graphic file (type png)
 <use Immagini/img6.png>
-Package pdftex.def Info: Immagini/img6.png  used on input line 366.
+Package pdftex.def Info: Immagini/img6.png  used on input line 282.
 (pdftex.def)             Requested size: 448.79254pt x 102.44177pt.
 
-Overfull \hbox (22.00119pt too wide) in paragraph at lines 366--367
+Overfull \hbox (22.00119pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
-[27
+[23
 
 
- <./Immagini/img6.png>] [28]
-<Immagini/img7.png, id=539, 876.27374pt x 329.43076pt>
+ <./Immagini/img6.png>] [24]
+<Immagini/img7.png, id=451, 876.27374pt x 329.43076pt>
 File: Immagini/img7.png Graphic file (type png)
 <use Immagini/img7.png>
-Package pdftex.def Info: Immagini/img7.png  used on input line 424.
+Package pdftex.def Info: Immagini/img7.png  used on input line 340.
 (pdftex.def)             Requested size: 481.95204pt x 181.18747pt.
- [29] [30 <./Immagini/img7.png>]
-<Immagini/img8.png, id=553, 868.4445pt x 314.97675pt>
+ [25] [26 <./Immagini/img7.png>]
+<Immagini/img8.png, id=463, 868.4445pt x 314.97675pt>
 File: Immagini/img8.png Graphic file (type png)
 <use Immagini/img8.png>
-Package pdftex.def Info: Immagini/img8.png  used on input line 470.
+Package pdftex.def Info: Immagini/img8.png  used on input line 385.
 (pdftex.def)             Requested size: 477.64597pt x 173.23773pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-<Immagini/img9.png, id=560, 1109.94675pt x 490.2315pt>
+ [27]
+<Immagini/img9.png, id=469, 1109.94675pt x 490.2315pt>
 File: Immagini/img9.png Graphic file (type png)
 <use Immagini/img9.png>
-Package pdftex.def Info: Immagini/img9.png  used on input line 484.
+Package pdftex.def Info: Immagini/img9.png  used on input line 399.
 (pdftex.def)             Requested size: 443.97084pt x 196.08913pt.
- [32 <./Immagini/img8.png> <./Immagini/img9.png>]
-<Immagini/img12.png, id=570, 1149.093pt x 390.258pt>
+ [28 <./Immagini/img8.png> <./Immagini/img9.png>]
+<Immagini/img12.png, id=479, 1149.093pt x 390.258pt>
 File: Immagini/img12.png Graphic file (type png)
 <use Immagini/img12.png>
-Package pdftex.def Info: Immagini/img12.png  used on input line 501.
+Package pdftex.def Info: Immagini/img12.png  used on input line 416.
 (pdftex.def)             Requested size: 459.62906pt x 156.10042pt.
-<Immagini/img11.png, id=571, 761.84625pt x 519.1395pt>
+<Immagini/img11.png, id=480, 761.84625pt x 519.1395pt>
 File: Immagini/img11.png Graphic file (type png)
 <use Immagini/img11.png>
-Package pdftex.def Info: Immagini/img11.png  used on input line 512.
+Package pdftex.def Info: Immagini/img11.png  used on input line 427.
 (pdftex.def)             Requested size: 380.9222pt x 259.5691pt.
- [33 <./Immagini/img12.png>] [34 <./Immagini/img11.png>]
-<Immagini/img13.png, id=586, 1156.32pt x 493.24275pt>
+ [29 <./Immagini/img12.png>] [30 <./Immagini/img11.png>]
+<Immagini/img13.png, id=497, 1156.32pt x 493.24275pt>
 File: Immagini/img13.png Graphic file (type png)
 <use Immagini/img13.png>
-Package pdftex.def Info: Immagini/img13.png  used on input line 536.
+Package pdftex.def Info: Immagini/img13.png  used on input line 452.
 (pdftex.def)             Requested size: 462.5198pt x 197.2936pt.
-<Immagini/img14.png, id=587, 383.63326pt x 334.24875pt>
+<Immagini/img14.png, id=498, 383.63326pt x 334.24875pt>
 File: Immagini/img14.png Graphic file (type png)
 <use Immagini/img14.png>
-Package pdftex.def Info: Immagini/img14.png  used on input line 542.
+Package pdftex.def Info: Immagini/img14.png  used on input line 458.
 (pdftex.def)             Requested size: 268.54144pt x 233.97252pt.
-<Immagini/img10.png, id=588, 1149.093pt x 597.432pt>
+<Immagini/img10.png, id=499, 1149.093pt x 597.432pt>
 File: Immagini/img10.png Graphic file (type png)
 <use Immagini/img10.png>
-Package pdftex.def Info: Immagini/img10.png  used on input line 551.
+Package pdftex.def Info: Immagini/img10.png  used on input line 467.
 (pdftex.def)             Requested size: 459.62906pt x 238.96857pt.
- [35 <./Immagini/img13.png> <./Immagini/img14.png>]
-<Immagini/img15.png, id=596, 316.18124pt x 493.24275pt>
+ [31 <./Immagini/img13.png> <./Immagini/img14.png>]
+<Immagini/img15.png, id=506, 316.18124pt x 493.24275pt>
 File: Immagini/img15.png Graphic file (type png)
 <use Immagini/img15.png>
-Package pdftex.def Info: Immagini/img15.png  used on input line 561.
+Package pdftex.def Info: Immagini/img15.png  used on input line 477.
 (pdftex.def)             Requested size: 189.7102pt x 295.94794pt.
- [36 <./Immagini/img10.png> <./Immagini/img15.png>]
-<Immagini/img16.png, id=603, 465.53925pt x 234.8775pt>
+ [32 <./Immagini/img10.png> <./Immagini/img15.png>]
+<Immagini/img16.png, id=513, 465.53925pt x 234.8775pt>
 File: Immagini/img16.png Graphic file (type png)
 <use Immagini/img16.png>
-Package pdftex.def Info: Immagini/img16.png  used on input line 580.
+Package pdftex.def Info: Immagini/img16.png  used on input line 496.
 (pdftex.def)             Requested size: 325.87524pt x 164.41312pt.
-<Immagini/img17.png, id=604, 698.61pt x 401.0985pt>
+<Immagini/img17.png, id=514, 698.61pt x 401.0985pt>
 File: Immagini/img17.png Graphic file (type png)
 <use Immagini/img17.png>
-Package pdftex.def Info: Immagini/img17.png  used on input line 588.
+Package pdftex.def Info: Immagini/img17.png  used on input line 504.
 (pdftex.def)             Requested size: 419.16924pt x 240.66095pt.
-<Immagini/img18.png, id=605, 777.50475pt x 433.62pt>
+<Immagini/img18.png, id=515, 777.50475pt x 433.62pt>
 File: Immagini/img18.png Graphic file (type png)
 <use Immagini/img18.png>
-Package pdftex.def Info: Immagini/img18.png  used on input line 594.
+Package pdftex.def Info: Immagini/img18.png  used on input line 510.
 (pdftex.def)             Requested size: 388.75142pt x 216.80946pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./Immagini/img16.png>] [38 <./Immagini/img17.png> <./Immagini/img18.png>]
-<Immagini/img19.png, id=618, 501.67426pt x 243.309pt>
+ [33 <./Immagini/img16.png>] [34 <./Immagini/img17.png> <./Immagini/img18.png>]
+<Immagini/img19.png, id=528, 501.67426pt x 243.309pt>
 File: Immagini/img19.png Graphic file (type png)
 <use Immagini/img19.png>
-Package pdftex.def Info: Immagini/img19.png  used on input line 612.
+Package pdftex.def Info: Immagini/img19.png  used on input line 528.
 (pdftex.def)             Requested size: 351.16957pt x 170.31514pt.
-<Immagini/img20.png, id=619, 1097.90175pt x 604.659pt>
+<Immagini/img20.png, id=529, 1097.90175pt x 604.659pt>
 File: Immagini/img20.png Graphic file (type png)
 <use Immagini/img20.png>
-Package pdftex.def Info: Immagini/img20.png  used on input line 619.
+Package pdftex.def Info: Immagini/img20.png  used on input line 535.
 (pdftex.def)             Requested size: 384.27138pt x 211.63382pt.
-<Immagini/img22.png, id=620, 1156.32pt x 477.58424pt>
+<Immagini/img22.png, id=530, 1156.32pt x 477.58424pt>
 File: Immagini/img22.png Graphic file (type png)
 <use Immagini/img22.png>
-Package pdftex.def Info: Immagini/img22.png  used on input line 626.
+Package pdftex.def Info: Immagini/img22.png  used on input line 542.
 (pdftex.def)             Requested size: 404.71806pt x 167.15698pt.
- [39 <./Immagini/img19.png> <./Immagini/img20.png>]
-<Immagini/img21.png, id=627, 620.3175pt x 453.49425pt>
+ [35 <./Immagini/img19.png> <./Immagini/img20.png>]
+<Immagini/img21.png, id=538, 620.3175pt x 453.49425pt>
 File: Immagini/img21.png Graphic file (type png)
 <use Immagini/img21.png>
-Package pdftex.def Info: Immagini/img21.png  used on input line 636.
+Package pdftex.def Info: Immagini/img21.png  used on input line 552.
 (pdftex.def)             Requested size: 341.17569pt x 249.42259pt.
- [40 <./Immagini/img22.png> <./Immagini/img21.png>] [41] [42] [43] [44] [45]) [46] (./main.bbl
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 12.
- (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Underfull \hbox (badness 10000) in paragraph at lines 10--14
-[]\T1/cmr/m/n/12 alet.  Van-tag-gi del cloud.  [][]$\T1/cmtt/m/n/12 https : / / www . alet . com /
- []
+ [36 <./Immagini/img22.png> <./Immagini/img21.png>]
+Capitolo 4.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 561.
+
+[37
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
-[]\T1/cmr/m/n/12 AVG.  At-tac-chi zero-day.  [][]$\T1/cmtt/m/n/12 https : / / www . avg . com / it / signal /
- []
+] [38]
+Capitolo 5.
+) [39
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--44
-[]\T1/cmr/m/n/12 cybersecurity360.  Al-ler-ta per una zero-day su ci-sco ios xe.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--44
-\T1/cmr/m/n/12 https://www.cybersecurity360.it/nuove-minacce/allerta-per-una-zero-day-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--44
-\T1/cmr/m/n/12 su-cisco-ios-xe-oltre-1-600-i-dispositivi-di-rete-esposti-in-italia/.  Ac-ces-sed:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
-[]\T1/cmr/m/n/12 cynet.  Mi-tre.  [][]$\T1/cmtt/m/n/12 https : / / www . cynet . com / it /
- []
-
-[47
+] (./main.bbl [40
 
 
 
 
 ]
-Underfull \hbox (badness 1831) in paragraph at lines 74--78
-[]\T1/cmr/m/n/12 giornalettismo.  Sto-ria del cloud.  [][]$\T1/cmtt/m/n/12 https : / / www . giornalettismo . com /
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\T1/cmr/m/n/12 AVG.  At-tac-chi zero-day.  [][]$\T1/cmtt/m/n/12 https : / / www . avg . com / it / signal /
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 92--96
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+[]\T1/cmr/m/n/12 cybersecurity360.  Al-ler-ta per una zero-day su ci-sco ios xe.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\T1/cmr/m/n/12 https://www.cybersecurity360.it/nuove-minacce/allerta-per-una-zero-day-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
+\T1/cmr/m/n/12 su-cisco-ios-xe-oltre-1-600-i-dispositivi-di-rete-esposti-in-italia/.  Ac-ces-sed:
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 57--61
 []\T1/cmr/m/n/12 OWASP.  Con-trol-lo del-le di-pen-den-ze owa-sp.  [][]$\T1/cmtt/m/n/12 https : / / owasp . org /
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 104--108
+Underfull \hbox (badness 5431) in paragraph at lines 69--73
 []\T1/cmr/m/n/12 OWASP Zed At-tack Pro-xy.  Owa-sp zed at-tack pro-xy.  [][]$\T1/cmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 69--73
 \T1/cmtt/m/n/12 / / oscat . regione . toscana . it / catalogo-[]prodotti-[]open-[]source /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--114
-[]\T1/cmr/m/n/12 redhat.  Ca-te-go-rie di ser-vi-zi del cloud com-pu-ting.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--114
-[][]$\T1/cmtt/m/n/12 https : / / www . redhat . com / it / topics / cloud-[]computing /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--114
-\T1/cmtt/m/n/12 public-[]cloud-[]vs-[]private-[]cloud-[]and-[]hybrid-[]cloud# : ~ : text = Esistono %
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--126
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
 []\T1/cmr/m/n/12 UniverseIT.  De-v-se-cops?  [][]$\T1/cmtt/m/n/12 https : / / universeit . blog /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-[]\T1/cmr/m/n/12 wikipedia.  Cve.  [][]$\T1/cmtt/m/n/12 https : / / it . wikipedia . org / wiki / Common _
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 134--138
-[]\T1/cmr/m/n/12 wikipedia.  Re-go-la-men-to ge-ne-ra-le sul-la pro-te-zio-ne dei da-ti.  [][]$\T1/cmtt/m/n/12 https :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
-\T1/cmtt/m/n/12 / / it . wikipedia . org / wiki / Regolamento _ generale _ sulla _ protezione _
- []
-
-) [48]
+) [41]
 \openout2 = `contents/Thanks.aux'.
 
- (./contents/Thanks.tex) [49
+ (./contents/Thanks.tex) [42
 
 ]
 
@@ -976,21 +933,21 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C4996B440967B559FDABCBF9352C5651;12690.
+(rerunfilecheck)             Checksum: 5BAFDAE51E36B9DA2187A2FE18D8B280;10791.
  ) 
 Here is how much of TeX's memory you used:
- 20262 strings out of 474175
- 353557 string characters out of 5749697
- 1942460 words of memory out of 5000000
- 42037 multiletter control sequences out of 15000+600000
+ 20195 strings out of 474175
+ 352478 string characters out of 5749697
+ 1941460 words of memory out of 5000000
+ 42003 multiletter control sequences out of 15000+600000
  569954 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,1218b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,107p,1175b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (51 pages, 1991797 bytes).
+Output written on main.pdf (44 pages, 1558744 bytes).
 PDF statistics:
- 797 PDF objects out of 1000 (max. 8388607)
- 672 compressed objects within 7 object streams
- 170 named destinations out of 1000 (max. 500000)
- 596 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 666 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 514 words of extra memory for PDF output out of 10000 (max. 10000000)
 

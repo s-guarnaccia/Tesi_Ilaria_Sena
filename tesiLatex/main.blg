@@ -9,52 +9,49 @@ A level-1 auxiliary file: contents/intro.aux
 The style file: plain.bst
 A level-1 auxiliary file: contents/Thanks.aux
 Database file #1: Bibliography.bib
-Warning--empty journal in rischiodigitale
 Warning--empty journal in art1
 Warning--empty journal in Autenticazione2fattori
 Warning--empty year in Autenticazione2fattori
-Warning--empty journal in NIST
-Warning--empty year in NIST
 Warning--empty journal in gestione_vulnerabiltà
-You've used 23 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            600 strings with 7856 characters,
-and the built_in function-call counts, 6933 in all, are:
-= -- 611
-> -- 488
+            565 strings with 5851 characters,
+and the built_in function-call counts, 3281 in all, are:
+= -- 311
+> -- 144
 < -- 0
-+ -- 199
-- -- 176
-* -- 400
-:= -- 1245
-add.period$ -- 90
-call.type$ -- 23
-change.case$ -- 157
++ -- 60
+- -- 46
+* -- 121
+:= -- 579
+add.period$ -- 55
+call.type$ -- 14
+change.case$ -- 65
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 176
-empty$ -- 482
-format.name$ -- 176
-if$ -- 1382
+cite$ -- 18
+duplicate$ -- 107
+empty$ -- 294
+format.name$ -- 46
+if$ -- 689
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 5
-newline$ -- 139
-num.names$ -- 46
-pop$ -- 274
+int.to.str$ -- 14
+missing$ -- 3
+newline$ -- 86
+num.names$ -- 28
+pop$ -- 136
 preamble$ -- 1
-purify$ -- 134
+purify$ -- 51
 quote$ -- 0
-skip$ -- 122
+skip$ -- 74
 stack$ -- 0
-substring$ -- 115
-swap$ -- 18
+substring$ -- 70
+swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 92
-warning$ -- 7
-while$ -- 46
-width$ -- 25
-write$ -- 251
-(There were 7 warnings)
+type$ -- 56
+warning$ -- 4
+while$ -- 28
+width$ -- 16
+write$ -- 154
+(There were 4 warnings)
